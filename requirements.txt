@@ -1,0 +1,20 @@
+# Assistant Vocal PC - Requirements
+# Installer avec: pip install -r requirements.txt
+
+# Reconnaissance vocale
+SpeechRecognition==3.10.0
+
+# Synthèse vocale (Text-to-Speech)
+pyttsx3==2.90
+
+# Audio (nécessaire pour le microphone)
+PyAudio==0.2.11
+
+# Requêtes HTTP pour l'API Ollama
+requests==2.31.0
+
+# Interface audio alternative (optionnel)
+pygame==2.5.2
+
+# Gestion des erreurs audio (optionnel)
+pywin32==306  # Pour Windows uniquement
